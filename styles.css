@@ -20,6 +20,25 @@
     background-color: var(--blue-500);
 }
 
+.sidebarHeader {
+    display: grid;
+    grid-template-columns: 35px auto;
+}
+
+.sidebarNavigationGroup,
+.sidebarBrandingGroup {
+    display: grid;
+    grid-template-columns: 35px auto;
+}
+
+.headerIcon {
+    height: 35px;
+    width: 35px;
+}
+.icons {
+    height: 25px;
+    width: 25px;
+}
 
 
 .header {
